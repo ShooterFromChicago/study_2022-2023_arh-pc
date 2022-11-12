@@ -35,15 +35,14 @@ world! на экран.
 перейдем в него, создадим текстовый файл с именем hello.asm и откроем
 его (рис. 1).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image1.png){width="5.5447364391951in"
-height="1.075in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image1.png)
+
 
 Рис. 1. Создание файла hello.asm
 
 Введём в него следующий текст (рис. 2).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image2.png){width="6.496527777777778in"
-height="4.067361111111111in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image2.png)
 
 Рис. 2. Код программы hello
 
@@ -51,8 +50,7 @@ height="4.067361111111111in"}
 
 Затем скомпилируем программу Hello world! (рис. 3).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image3.png){width="5.515043744531933in"
-height="1.0916666666666666in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image3.png)
 
 Рис. 3. Компиляция программы
 
@@ -63,16 +61,14 @@ height="1.0916666666666666in"}
 Полный вариант командной строки nasm выглядит следующим образом (рис.
 4).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image4.png){width="6.355384951881015in"
-height="0.9in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image4.png)
 
 Рис. 4. Командная строка nasm
 
 Выполним следующую команду, а затем проверим, что файлы были созданы
 (рис. 5).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image5.png){width="5.948746719160105in"
-height="0.7917771216097987in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image5.png)
 
 Рис. 5. Команда nasm
 
@@ -88,24 +84,21 @@ height="0.7917771216097987in"}
 на обработку компоновщику, затем проверим, что исполняемый файл был
 создан (рис. 6).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image6.png){width="4.771499343832021in"
-height="0.8126137357830271in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image6.png)
 
 Рис. 6. Исполняемый файл 1
 
 Затем создадим еще один исполняемый файл, как видим, его название стало
 main (рис. 7).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image7.png){width="4.583973097112861in"
-height="0.7709405074365704in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image7.png)
 
 Рис. 7. Исполняемый файл 2
 
 Затем запустим созданный исполняемый файл с помощью следующей команды
 (рис. 8).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image8.png){width="3.9976377952755904in"
-height="0.8916666666666667in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image8.png)
 
 Рис. 8. Запуск программы
 
@@ -117,13 +110,11 @@ height="0.8916666666666667in"}
 внесем в него изменения, чтобы программа выводила на экран мои фамилию и
 имя (рис. 9-10).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image9.png){width="5.052788713910761in"
-height="0.8647036307961505in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image9.png)
 
 Рис. 9. Копия файла hello.asm
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image10.png){width="6.396725721784777in"
-height="4.1047397200349955in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image10.png)
 
 Рис. 10. Изменения в программе
 
@@ -131,8 +122,7 @@ height="4.1047397200349955in"}
 Выполним компоновку объектного файла и запустим получившийся исполняемый
 файл (рис. 11).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image11.png){width="6.136272965879265in"
-height="1.354355861767279in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image11.png)
 
 Рис. 11. Программа lab5
 
@@ -141,13 +131,11 @@ height="1.354355861767279in"}
 Скопируем файлы hello.asm и lab5.asm в локальный репозиторий и загрузим
 эти файлы на Github (рис. 12-13).
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image12.png){width="6.496527777777778in"
-height="1.4083333333333334in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image12.png)
 
 Рис. 12. Копирование файлов
 
-![](vertopal_4af68b20d05a495596270a2b09904f73/media/image13.png){width="6.496527777777778in"
-height="2.9145833333333333in"}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab05/report/image/image13.png)
 
 Рис. 13. Загрузка на гитхаб
 
