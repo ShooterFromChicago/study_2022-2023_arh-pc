@@ -1,119 +1,123 @@
----
-## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
+**РОССИЙСКИЙ УНИВЕРСИТЕТ ДРУЖБЫ НАРОДОВ**
 
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
+**Факультет физико-математических и естественных наук**
 
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
+**Кафедра прикладной информатики и теории вероятностей**
 
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
----
+**ОТЧЕТ**
 
-# Цель работы
+**по лабораторной работе № [6]{.ul}**
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
+*[дисциплина: Архитектура компьютера]{.ul}*
 
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
+[Студент: Волгин А.А.]{.ul}
 
-# Задание
+Группа: НПИбд-01-22
 
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+**МОСКВА**
 
-# Теоретическое введение
+2022 г.
 
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
+**Цель работы:**
 
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
+Приобретение практических навыков работы в Midnight Commander. Освоение
+инструкций языка ассемблера mov и int.
 
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
+**Порядок выполнения лабораторной работы:**
 
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
+Откроем Midnight Commander и перейдем в каталог \~/work/arch-pc
+созданный при выполнении лабораторной работы №5 (рис.1).
 
-Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image1.png)
 
-# Выполнение лабораторной работы
+Рис. 1. MC, каталог \~/work/arch-pc
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001])
+Затем создадим папку lab06 и создадим в ней файл lab6-1.asm (рис. 2).
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image2.png)
 
-# Выводы
+Рис. 2. Создание папки lab06 и файла lab6-1.asm
 
-Здесь кратко описываются итоги проделанной работы.
+Потом откроем файл lab6-1.asm и введем следующий текст программы (рис.
+3.)
 
-# Список литературы{.unnumbered}
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image3.png)
 
-::: {#refs}
-:::
+Рис. 3. Текст программы lab6-1.asm
+
+Затем оттранслируем текст программы lab6-1.asm в объектный файл.
+Выполним компоновку объектного файла и запустим получившийся исполняемый
+файл. Затем на запрос программы введем свои ФИО (рис. 4).
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image4.png)
+
+Рис. 4. Программа lab6-1
+
+Скачаем файл in_out.asm со страницы курса в ТУИС, чтобы в дальнейшем
+упростить нашу жизнь, и переместим его в каталог с файлом lab6-1.asm
+(рис. 5).
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image5.png)
+
+Рис. 5. Копирование файла in_out.asm
+
+Создадим копию файла lab6-1.asm с именем lab6-2.asm (рис. 6). Затем
+исправим текст программы в файле lab6-2.asm с использованием подпрограмм
+из внешнего файла in_out.asm (рис. 7). Создадим исполняемый файл и
+проверим его работу (рис. 8)
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image6.png)
+
+Рис. 6. Копирование файла lab6-1.asm
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image7.png)
+
+Рис. 7. Исправление текста программы
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image8.png)
+
+Рис. 8. Результат работы программы lab6-2
+
+Затем в этом же файле заменим подпрограмму sprintLF на sprint и затем
+запустим (рис. 9).
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image9.png)
+
+Рис. 9. Запуск программы 2.0
+
+И видим, что по сравнению со sprintLF с подпрограммой sprint нет
+переноса строки после вывода строки программы.
+
+**Порядок выполнения самостоятельной работы:**
+
+Создадим копию файла lab6-1.asm и назовем его lab6-1_1.asm. Внесем
+изменения в программу, так чтобы она после нашего ввода выводила
+напечатанную строку (рис. 10). И запустим её (рис. 11).
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image10.png)
+
+Рис. 10. Изменения в программе lab6-1_1.asm
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image11.png)
+
+Рис. 11. Работа программы lab6-1_1
+
+Затем проделаем этот процесс со второй программой (рис. 12-14).
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image12.png)
+
+Рис. 12. Копия файла lab-2.asm
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image13.png)
+
+Рис. 13. Изменения в программе lab6-2_1.asm
+
+![](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab06/report/image/image14.png)
+
+Рис. 14. Работа программы lab6-2_1
+
+**Вывод:**
+
+Во время выполнения лабораторной работы были приобретены практические
+навыки работы в Midnight Commander, а также освоены инструкции языка
+ассемблера mov и int.
