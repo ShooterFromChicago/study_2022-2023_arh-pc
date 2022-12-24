@@ -34,11 +34,11 @@
 Введем в файл lab11-1.asm текст программы (рис. 2). Создадим исполняемый
 файл и проверим его работу (рис. 3).
 
-![Рис. 2. Текст программы lab11-1](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 2. Текст программы lab11-1](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image2.png)
 
 
 
-![Рис. 3. Результат работы программы](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 3. Результат работы программы](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image3.png)
 
 
 
@@ -46,7 +46,7 @@
 lab11-1, запретив его выполнение, затем попытаемся выполнить исполняемый
 файл (рис. 4).
 
-![Рис. 4. Изменение прав доступа к файлу и проверка](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 4. Изменение прав доступа к файлу и проверка](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image4.png)
 
 
 
@@ -59,7 +59,7 @@ lab11-1, запретив его выполнение, затем попытае
 с исходным текстом программы, добавив права на исполнение и попытаемся
 запустить его (рис. 5).
 
-![Рис. 5. Разрешение выполнения исходного текста программы как исполняемого файла и попытка выполнить файл](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 5. Разрешение выполнения исходного текста программы как исполняемого файла и попытка выполнить файл](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image5.png)
 
 
 
@@ -71,7 +71,7 @@ lab11-1, запретив его выполнение, затем попытае
 доступа в символьном виде будет следующим: -wx \--x rwx, в двоичном: 010
 101 010. И проверим корректность выполнения (рис. 6).
 
-![Рис. 6. Предоставление прав доступа к файлу readme.txt и проверка правильности выполнения команды](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 6. Предоставление прав доступа к файлу readme.txt и проверка правильности выполнения команды](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image6.png)
 
 
 
@@ -97,14 +97,14 @@ lab11-1, запретив его выполнение, затем попытае
 Создадим исполняемый файл и проверим его работу. Также проверим наличие
 файла и его содержимое с помощью команд ls и cat (рис. 9).
 
-![Рис. 7. Текст программы lab11-yeahboysoonendofsession](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 7. Текст программы lab11-yeahboysoonendofsession](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image7.png)
 
 
 
-![Рис. 8. Текст программы lab11-yeahboysoonendofsession](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 8. Текст программы lab11-yeahboysoonendofsession](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image8.png)
 
 
-![Рис. 9. Проверка работы исполняемого файла и проверка наличия файла name.txt и его содержимого](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image1.png)
+![Рис. 9. Проверка работы исполняемого файла и проверка наличия файла name.txt и его содержимого](/home/aavolgin/work/study/2022-2023/Архитектура компьютера/arch-pc/labs/lab11/report/image/image9.png)
 
 
 
